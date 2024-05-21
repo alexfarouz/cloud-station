@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Lenis from "@studio-freight/lenis";
 import { useProgress } from "@react-three/drei";
-import { Section1 } from "./Sections/Section1";
+import { Section1 } from "./Section1";
 import { SectionFAQ } from "./Sections/SectionFAQ";
 import { SectionFooter } from "./Sections/SectionFooter";
 import CanvasContainer from "./CanvasContainer";
@@ -54,7 +54,7 @@ function App() {
         </div>
 
         <div className="nav">
-          <img src="/logos/cloud-logo.png" alt="Cloud Stations Logo" className="logo-image"/>
+          <img src="/logos/cloud-logo.png" className="logo-image"/>
         </div>
         
 
