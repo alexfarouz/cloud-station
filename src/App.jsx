@@ -14,7 +14,7 @@ const LoadingScreen = () => {
   return (
     <div className={`loading-screen ${active ? "" : "loading-screen--hidden"}`}>
       <div className="loading-screen__container">
-        <img src="/logos/cloud-logo.png" className="logo-loading-image"/>
+        <img src="./logos/cloud-logo.png" className="logo-loading-image"/>
         <div className="progress__container">
           <div className="progress__bar" style={{ width: `${progress}%` }}></div>
         </div>
@@ -58,7 +58,7 @@ function App() {
         </div>
         
         <Section1 />
-        
+
         <Routes>
           <Route path="/" element={<Section1 />} />
           {/* <Route path="/faq" element={<SectionFAQ />} /> */}
