@@ -54,7 +54,7 @@ function App() {
         </div>
 
         <div className="nav">
-          <img src="/logos/cloud-logo.png" alt="Cloud Stations Logo" className="logo-image"/>
+          <img src="../public/logos/cloud-logo.png" className="logo-image"/>
         </div>
         
         <Section1 />
