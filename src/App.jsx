@@ -54,10 +54,11 @@ function App() {
         </div>
 
         <div className="nav">
-          <img src="../public/logos/cloud-logo.png" className="logo-image"/>
+          <img src="./logos/cloud-logo.png" className="logo-image"/>
         </div>
         
         <Section1 />
+        
         <Routes>
           <Route path="/" element={<Section1 />} />
           {/* <Route path="/faq" element={<SectionFAQ />} /> */}
