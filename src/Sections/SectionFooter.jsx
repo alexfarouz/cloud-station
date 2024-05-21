@@ -11,8 +11,8 @@ export const SectionFooter = () => {
             <div className="footer-content" >
                 <h1 className="small-headline creme" >Follow Us On Social Media</h1>
                 <div className="social-media-box" >
-                    <i className="fa-brands fa-linkedin" onClick={() => handleClick('https://www.instagram.com/cloudstationusa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==')} ></i>
-                    <i className="fa-brands fa-instagram" onClick={() => handleClick('https://www.instagram.com/cloudstationsusa/')} ></i>
+                    <i className="fa-brands fa-linkedin" onClick={() => handleClick('linkedin')} ></i>
+                    <i className="fa-brands fa-instagram" onClick={() => handleClick('https://www.instagram.com/cloudstationusa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==')} ></i>
                 </div>
             </div>
         </section>

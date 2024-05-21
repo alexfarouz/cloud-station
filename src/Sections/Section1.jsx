@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import CanvasContainer from "./CanvasContainer";
+import CanvasContainer from "../CanvasContainer";
 
 export const Section1 = () => {
   
