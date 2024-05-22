@@ -53,7 +53,7 @@ function App() {
           <CanvasContainer />
         </div>
 
-        <div className="nav">
+        <div id="logo-img" className="nav">
           <img src="./logos/cloud-logo.png" className="logo-image"/>
         </div>
         

@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/cloud-station/',
   plugins: [react()],
+  server: {
+    host: true,
+    port: 3000
+  }
 })

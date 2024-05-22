@@ -123,7 +123,7 @@ export const Section1 = () => {
           <div className="two-content" >
             <div className={`two-content-box ${isVisibleOne ? 'visible' : ''}`} ref={oneRef}>
               <h1 className="small-headline content-box-text-top black" >Powering <span className="black" >Internationally</span></h1>
-              <h1 className="small-description content-box-text-bottom" >Join the league-  Cycle some cities were working with (Gouna Egypt, Hurghada Egypt, Sahel Egypt, Cairo Egypt, Richmond USA, Morgantown USA, Starkville USA, Tampa USA Prague Czech Republic)</h1>
+              <h1 className="small-description content-box-text-bottom" >Join the league - Some cities were working with: Gouna Egypt, Hurghada Egypt, Sahel Egypt, Cairo Egypt, Richmond USA, Morgantown USA, Starkville USA, Tampa, USA Prague Czech Republic)</h1>
             </div>
             <div className={`blue-border ${isVisibleTen ? 'visible' : ''}`} ref={tenRef}/>  
             <div className={`two-content-box ${isVisibleTwo ? 'visible' : ''}`} ref={twoRef}>
@@ -152,7 +152,7 @@ export const Section1 = () => {
           <div className="mobile-scroll" />
           <div className="form-content" >
             <form className={`form-form ${isVisibleEight ? 'visible' : ''}`} ref={eightRef} >  
-              <h1 className="small-headline creme" >Contact Us</h1>
+              <h1 className="small-headline creme">Contact Us</h1>
               <input name="name" type="text" class="feedback-input" placeholder="Name" />   
               <input name="email" type="text" class="feedback-input" placeholder="Business Name" />
               <textarea name="text" class="feedback-input" placeholder="Reason For inquiry"></textarea>
@@ -190,7 +190,7 @@ export const Section1 = () => {
           <div className="mobile-scroll" />
           <div className="form-content" >
             <form className={`form-form ${isVisibleNine ? 'visible' : ''}`} ref={nineRef} >  
-              <h1 className="small-headline creme" >Career Opportunities</h1>    
+              <h1 className="small-headline creme">Career Opportunities</h1>    
               <input name="name" type="text" class="feedback-input" placeholder="Name" />   
               <input name="email" type="text" class="feedback-input" placeholder="Email Address" />
               <textarea name="text" class="feedback-input" placeholder="Phone Number"></textarea>
