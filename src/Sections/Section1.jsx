@@ -123,7 +123,7 @@ export const Section1 = () => {
           <div className="two-content" >
             <div className={`two-content-box ${isVisibleOne ? 'visible' : ''}`} ref={oneRef}>
               <h1 className="small-headline content-box-text-top black" >Powering <span className="black" >Internationally</span></h1>
-              <h1 className="small-description content-box-text-bottom" >Join the league - Some cities were working with: Gouna Egypt, Hurghada Egypt, Sahel Egypt, Cairo Egypt, Richmond USA, Morgantown USA, Starkville USA, Tampa, USA Prague Czech Republic)</h1>
+              <h1 className="small-description content-box-text-bottom" >Join the league - Some cities we're working with: Gouna Egypt, Hurghada Egypt, Sahel Egypt, Cairo Egypt, Richmond USA, Morgantown USA, Starkville USA, Tampa, USA Prague Czech Republic)</h1>
             </div>
             <div className={`blue-border ${isVisibleTen ? 'visible' : ''}`} ref={tenRef}/>  
             <div className={`two-content-box ${isVisibleTwo ? 'visible' : ''}`} ref={twoRef}>
@@ -151,10 +151,12 @@ export const Section1 = () => {
         <section className="form">
           <div className="mobile-scroll" />
           <div className="form-content" >
-            <form className={`form-form ${isVisibleEight ? 'visible' : ''}`} ref={eightRef} >  
+            <form action="https://api.web3forms.com/submit" method="POST" className={`form-form ${isVisibleEight ? 'visible' : ''}`} ref={eightRef} >  
               <h1 className="small-headline creme">Contact Us</h1>
+              <input type="hidden" name="access_key" value="272469d2-5776-484a-9beb-6f49f62e690e"></input>
               <input name="name" type="text" class="feedback-input" placeholder="Name" />   
               <input name="email" type="text" class="feedback-input" placeholder="Business Name" />
+              <input name="email" type="text" class="feedback-input" placeholder="Email Address" />
               <textarea name="text" class="feedback-input" placeholder="Reason For inquiry"></textarea>
               <input type="submit" value="SUBMIT"/>
             </form>
@@ -189,8 +191,9 @@ export const Section1 = () => {
         <section className="form-two" >
           <div className="mobile-scroll" />
           <div className="form-content" >
-            <form className={`form-form ${isVisibleNine ? 'visible' : ''}`} ref={nineRef} >  
+            <form action="https://api.web3forms.com/submit" method="POST" className={`form-form ${isVisibleNine ? 'visible' : ''}`} ref={nineRef} >  
               <h1 className="small-headline creme">Career Opportunities</h1>    
+              <input type="hidden" name="access_key" value="272469d2-5776-484a-9beb-6f49f62e690e"></input>
               <input name="name" type="text" class="feedback-input" placeholder="Name" />   
               <input name="email" type="text" class="feedback-input" placeholder="Email Address" />
               <textarea name="text" class="feedback-input" placeholder="Phone Number"></textarea>
