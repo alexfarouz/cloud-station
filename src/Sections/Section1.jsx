@@ -154,7 +154,6 @@ export const Section1 = () => {
             <form action="https://api.web3forms.com/submit" method="POST" className={`form-form ${isVisibleEight ? 'visible' : ''}`} ref={eightRef} >  
               <h1 className="small-headline creme">Contact Us</h1>
               <input type="hidden" name="access_key" value="272469d2-5776-484a-9beb-6f49f62e690e"></input>
-              <input type="hidden" name="access_key" value="7bb1eb08-6b2b-4595-875f-eb7edb5b3fb4"></input>
               <input name="name" type="text" class="feedback-input" placeholder="Name" />   
               <input name="email" type="text" class="feedback-input" placeholder="Business Name" />
               <input name="email" type="text" class="feedback-input" placeholder="Email Address" />
@@ -195,7 +194,6 @@ export const Section1 = () => {
             <form action="https://api.web3forms.com/submit" method="POST" className={`form-form ${isVisibleNine ? 'visible' : ''}`} ref={nineRef} >  
               <h1 className="small-headline creme">Career Opportunities</h1>    
               <input type="hidden" name="access_key" value="272469d2-5776-484a-9beb-6f49f62e690e"></input>
-              <input type="hidden" name="access_key" value="7bb1eb08-6b2b-4595-875f-eb7edb5b3fb4"></input>
               <input name="name" type="text" class="feedback-input" placeholder="Name" />   
               <input name="email" type="text" class="feedback-input" placeholder="Email Address" />
               <textarea name="text" class="feedback-input" placeholder="Phone Number"></textarea>
