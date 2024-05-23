@@ -59,11 +59,6 @@ function App() {
         
         <Section1 />
 
-        <Routes>
-          <Route path="/" element={<Section1 />} />
-          {/* <Route path="/faq" element={<SectionFAQ />} /> */}
-        </Routes>
-
         <SectionFooter />
       </>
     </Router>
