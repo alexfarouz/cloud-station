@@ -123,7 +123,7 @@ export const Section1 = () => {
           <div className="two-content" >
             <div className={`two-content-box ${isVisibleOne ? 'visible' : ''}`} ref={oneRef}>
               <h1 className="small-headline content-box-text-top black" >Powering <span className="black" >Internationally</span></h1>
-              <h1 className="small-description content-box-text-bottom" >Join the league - Some cities we're working with: Gouna Egypt, Hurghada Egypt, Sahel Egypt, Cairo Egypt, Richmond USA, Morgantown USA, Starkville USA, Tampa, USA Prague Czech Republic)</h1>
+              <h1 className="small-description content-box-text-bottom" >Join the league - Some cities we're working with: Gouna Egypt, Hurghada Egypt, Sahel Egypt, Cairo Egypt, Richmond USA, Morgantown USA, Starkville USA, Tampa USA, Prague Czech Republic</h1>
             </div>
             <div className={`blue-border ${isVisibleTen ? 'visible' : ''}`} ref={tenRef}/>  
             <div className={`two-content-box ${isVisibleTwo ? 'visible' : ''}`} ref={twoRef}>
